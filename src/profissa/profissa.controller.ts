@@ -29,6 +29,8 @@ export class ProfissaController {
         country: 'Brasil',
         zipCode: '01000-000',
       },
+      servicesDescription:
+        'Gabriel oferece uma ampla gama de serviços na construção civil, incluindo reformas, construções novas, instalações de pisos e azulejos, pintura, encanamento e serviços elétricos. Com mais de 10 anos de experiência, ele garante a qualidade e a satisfação dos clientes em todos os projetos.',
       servicesOffered: [
         {
           id: 1,
