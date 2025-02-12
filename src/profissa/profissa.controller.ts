@@ -9,4 +9,9 @@ export class ProfissaController {
   async getProfissa(@Param('id') id: string) {
     return this.profissaService.findById(id);
   }
+
+  @Get()
+  async getAllProfissas() {
+    return this.profissaService.findAll();
+  }
 }

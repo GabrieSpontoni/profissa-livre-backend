@@ -12,4 +12,8 @@ export class ProfissaService {
   async findById(id: string): Promise<Profissa> {
     return this.profissaModel.findOne({ _id: id }).exec();
   }
+
+  async findAll(): Promise<Profissa[]> {
+    return this.profissaModel.find().exec();
+  }
 }
